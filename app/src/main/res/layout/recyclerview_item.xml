@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_view_item"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="110dp"
+    android:clickable="true"
+    android:layout_margin="10dp"
+    >
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/dept_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/name_tv"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/phone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dept_tv"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="5sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        />
+
+
+    <TextView
+        android:id="@+id/gender_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:layout_margin="5sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/roll_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5sp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No. :"
+        android:textSize="20sp"
+        android:layout_toLeftOf="@+id/roll_tv"
+        android:layout_margin="5sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
